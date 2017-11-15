@@ -1,0 +1,477 @@
+body{
+	font-family: 'Roboto', sans-serif;	
+}
+
+header:AFTER{
+	display: none;
+}
+h2{
+	text-align: left;
+	font-weight: 400;
+}
+h3{
+	font-size: 16px;
+	font-weight: 300;
+}
+.fullheigt .header_top{
+	padding: 0;
+}
+.fullheigt .header_down .box .logo img {
+    height: 35px;
+}
+.fullheigt .header_down .box .title{
+	font-size: 24px;
+	padding-top:12px;
+	color: #fff;
+}
+header .box-right .lang{
+	color: #fff;
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	line-height: 19px;
+	vertical-align: 18px;
+}
+header .box-right .lang .lang_list{
+	border: 2px solid #a584ca;
+	border: 2px solid rgba(250,250,250,0.5);
+	padding: 4px 0 0;
+	border-radius: 14px;
+	position: absolute;
+	transition: all 1s ease 0s;
+}
+header .box-right .lang .lang_list:HOVER{
+	background: rgba(0,0,0, 0.5);
+}
+header .box-right .lang .lang_list:HOVER li{
+	display: block;
+}
+header .box-right .lang .lang_list li{
+	display: none;
+	cursor: pointer;
+	margin: 0 0 3px;
+	padding: 0 20px;
+	color: #a584ca;
+	white-space: nowrap;
+}
+header .box-right .lang .lang_list li:HOVER{
+	background: rgba(0,0,0, 0.1);
+}
+header .box-right .lang .lang_list li.select{
+	display: block;
+	color: #fff;
+}
+header .box-right .lang .lang_list:HOVER li.select{
+	background: rgba(250,250,250, 0.1);
+	
+}
+header .box-right .lang .lang_list li i{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	margin: -2px 9px -4px -17px;
+	
+}
+header .box-right .lang .lang_list li.lang1 i{
+	background: url("/images/design/en.png");
+}
+header .box-right .lang .lang_list li.lang2 i{
+	background: url("/images/design/ru.png");
+}
+
+header .flex_menu{
+	color: #fefefe;
+	margin-left: 100px;
+	margin-right: 240px;
+}
+.fullheigt .header_down {
+	background: transparent;
+	padding-top: 15px;
+}
+.fullheigt .flex_menu ul.flex li a{
+	text-transform:none;
+	font-size: 14px;
+	color: #fefefe;
+}
+.fullheigt .flex_menu ul.flex li a:HOVER{
+	color: #fff;
+}
+.flex_menu ul.flex li.select a{
+	color: #13dbdb;
+	color: #EFF168;
+	text-decoration: none;
+}
+.flex_menu ul.flex li.select a:HOVER{
+	color:  #FFE24F;
+}
+header .box{
+	float: right;
+	font-size: 90%;
+}
+header .box a{
+	color: #ccc;
+	cursor: pointer;
+}
+header .user-name{
+	margin-right: 20px;
+}
+header .user-name a{
+	font-weight: 700;
+	color: #ffcc44;
+}
+.fullheigt .header_down .box-right{
+	float: right;
+	margin-left: 30px;
+	font-size: 14px;
+	text-transform:uppercase;
+}
+.fullheigt .header_down .box-right a{
+	display: inline-block;
+}
+.fullheigt .header_down .box-right .btn{
+	border: 2px solid #fff;
+	margin: 3px 10px;
+	padding: 2px 16px;
+	text-transform:uppercase;
+	border-radius: 20px;
+}
+.fullheigt .header_down .box-right .btn:hover{
+	background: #fff;
+}
+
+.webGL-1 .webGL_container {
+    position: fixed;
+    z-index: -1
+}
+.webGL-1 .main_plashka {
+    position: relative;
+}
+.webGL-1 .fon_grad {
+    background: rgba(0, 0, 0, 0) url("/images/design/grad-fon.png") repeat scroll 0 0;
+	background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+	top: 0;
+    z-index: 1;
+}
+
+
+.fullheigt .contant {
+	padding: 0px 0 0;
+}
+
+.webGL_container #gameContainer{ 
+	margin: 0 0 0 -40%!important;
+}
+.webGL-1 .webGL_container{
+	background: url("/images/design/bg-scen.jpg");
+	background-size: cover; 
+}
+.webGL-1 .main_plashka {
+    padding: 0px 0 0;
+}
+.webGL-1 .main_plashka > div{
+	height: 100%;
+}
+.webGL-1 .main_plashka .section{
+	margin: 0;
+	padding: 100px 0 100px;
+	
+}
+.main_plashka .first_page .container{
+	height: 100%;
+}
+.scene{
+	text-align: left;
+	height: 100%;
+}
+.caption{
+	height: 43%;
+}
+.caption h1{
+	margin-bottom: 0;
+	font-size: 72px;
+	font-weight: 300;
+	color: #fff;
+	text-align: left;
+	text-transform: none;
+}
+.caption .signature{
+	font-size: 30px;
+	font-weight: 300;
+	
+}
+.timer{
+	font-size: 30px;
+	height: 38%;
+}
+.timer .counter_box{
+	
+}
+.timer .counter_box span{
+	font-size: 12px;
+	display: inline-block;
+	margin: 20px 100px 10px 0;
+}
+.timer .counter_box span b{
+	font-size: 36px;
+	font-weight:400;
+	display: block;
+}
+.email{
+	height: 25%;
+}
+
+.email .edit{
+	font-size: 16px;
+	display: inline-block;
+	
+}
+.email .edit input{
+	background: transparent;;
+	border: none;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	opacity: 0.7	;
+	padding:5px 0 8px;
+	margin-right: 40px;
+	width: 250px;
+}
+
+.email .btn{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	background: #00ffff;
+	background: #FFE24F;
+	border-radius: 20px; 
+	color: #301983;
+	color: #1b2d3c;
+}
+.email .btn:HOVER{
+	background: #eFd23F;
+}
+
+.follow{
+	position:fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+	height: 70px!important;
+	height: 15%;
+	text-align: left;
+	color: #a584ca;
+	color: #fff;
+	font-size: 14px;
+	z-index: 2;
+	opacity: 0.5;
+}
+.follow .edit{
+	display: inline-block;
+}
+.follow .edit b{
+	display: inline-block;
+	width: 130px;
+	border: none;
+	border-bottom: 1px solid #a584ca;
+	border-bottom: 1px solid #fff;
+	padding:5px 0 4px;
+	margin: 5px 30px;
+	color: #fff;
+}
+.follow .socs{
+	display: inline-block;
+}
+.follow .socs a{
+	color: #a584ca;
+	color: #fff;
+	font-size: 26px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+.follow .socs a:HOVER{
+	text-decoration: none;
+}
+.down_grad {
+    background: rgba(0, 0, 0, 0) url("/images/design/web_down_grad.png") repeat scroll 0 0;
+    bottom: 0;
+    height: 100px!important;
+    left: 0;
+    position: fixed!important;
+    right: 0;
+    z-index: 1;
+}
+.top_grad {
+    background: rgba(0, 0, 0, 0) url("/images/design/web_top_grad.png") repeat scroll 0 0;
+	top:0;
+    height: 120px!important;
+    left: 0;
+    position: fixed!important;
+    right: 0;
+    z-index: 1;
+}
+.pagers{
+	position: fixed;
+	right: 0;
+	top:0%;
+	bottom: 0;
+	width: 8%;
+	min-width: 120px;
+	padding-top: 100px;
+	z-index: 10;
+}
+.pagers .tab_cont{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.pagers .tab_cont .tab-cel{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.pagers .num{
+	font-size: 12px;
+}
+.pagers .num b{
+	font-size: 24px;
+	font-weight:300;
+}
+.pagers .items{
+	padding: 10px 0 10px 40px;
+	
+}
+.pagers .item{
+	
+}
+.pagers .items .item.select{
+	border-top: 1px solid #fff;
+}
+.pagers .items .item .pset{
+	padding: 5px;
+	margin: -7px 0 30px -7px;
+	cursor: pointer;
+	
+}
+.pagers .items .item .pset b{
+	display: block;
+	background: #fff;
+
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	border: 2px solid transparent; 
+	
+}
+.pagers .items .item.select .pset b{
+	width: 8px;
+	height: 8px;
+	margin-top:-2px;
+	margin-left: -2px;
+}
+.roadmap-1 .container .wraper{
+	padding: 0 18% 2% 18%;
+}
+
+.slider-2 .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item > div .item .table .black .container .plashka{
+	width: 100%;
+}
+.slider-2 .owl-buttons{
+	position: absolute;
+	top: 45%;
+	left: 10%;
+	right: 10%;
+}
+.slider-2 .owl-theme .owl-controls .owl-buttons div{
+	position: absolute;
+	font-size: 0;
+	border-radius:0;
+	background: transparent;
+	width: 25px;
+	height: 25px;
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.slider-2 .owl-buttons .owl-prev{
+	left: 0;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	    
+}
+.slider-2 .owl-buttons .owl-next{
+	right: 0;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.command-1{
+	padding: 0 60px;
+}
+.command-1 .container{
+	width: 100%;
+}
+.command-1 .items{
+	margin: 0 -40px
+}
+.command-1 .items .item{
+	margin: 0 40px 60px
+}
+
+.command-1 .info{
+	padding-top: 20px;
+}
+.command-1 .info h3{
+	margin-bottom: 20px;
+}
+.roadmap-1 .info_item .point{
+	border-color: #00ffff!important; 
+}
+.roadmap-1 .info_item .date{
+	color: #a584ca;
+}
+.roadmap-1 .info_item .date b{
+	color: #00ffff;
+	display: block;
+	
+}/*видео бг*/
+
+.videobg-1 .video_content{
+	background: url("/images/design/bg-scen.jpg");
+	background-size: cover; 
+	opacity:0.9;
+}
+.fourth_page .container{
+	height: 100%;	
+	text-align: left;
+}
+.caption_h2{
+	height: 20%;
+}
+.schem{
+	height: 75%;	
+	position: relative;
+	text-align: center;
+}
+.schem img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/*цвета градиента*/
+.roadmap-1 div.color1,
+.roadmap-1 .color1  div {/*градиентные точки цветов*/
+	border-color: #3EBDFF !important;
+}
+
+.roadmap-1 div.color2,
+.roadmap-1 .color2  div {/*градиентные точки цветов*/
+	border-color: #68BCFF !important;;
+}
+
+.roadmap-1 div.color3,
+.roadmap-1 .color3  div {/*градиентные точки цветов*/
+	border-color: #AED1FF !important;;
+}

@@ -1,0 +1,10 @@
+.fullheight-wrapper{
+	background: red;
+}
+.fullheight-wrapper .fp-section{
+   box-sizing: border-box;
+    position: relative;
+}
+.fullheight-wrapper .section{
+	height: 100%;
+}

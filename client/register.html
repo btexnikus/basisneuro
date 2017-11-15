@@ -1,0 +1,24 @@
+<template name="register">
+<form action="/" method="post">
+	<div id="login-box" class="form-box">
+		<div class="body bg-gray">
+				
+			<input type="hidden" name="sf_guard_user[id]" id="sf_guard_user_id" /><input type="hidden" name="sf_guard_user[_csrf_token]" value="112f7bcd6bb93589843896e3b467e59b" id="sf_guard_user__csrf_token" />				
+			<div class="form-group">
+				<input type="text" name="sf_guard_user[email_address]" class="form-control" placeholder="Email" id="sf_guard_user_email_address" />			</div>
+			<div class="form-group">
+				<input type="password" name="sf_guard_user[password]" class="form-control" placeholder="Password" id="sf_guard_user_password" />		
+			</div>
+			<div class="form-group">
+				<input type="password" name="sf_guard_user[password_again]" class="form-control" placeholder="Repeat password" id="sf_guard_user_password_again" />		
+			</div>
+			<div class="form-group">
+				<input type="text" name="sf_guard_user[wallet]" class="form-control" placeholder="ETH wallet" id="sf_guard_user_wallet" />		
+			</div>
+					</div>
+		<div class="footer">
+			<button class="btn bg-olive btn-block" type="submit">Register</button>
+		</div>
+	</div>
+</form>
+</template>

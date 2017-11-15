@@ -1,0 +1,367 @@
+<template name="cabinet">
+<div class="cabinet_div">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="box-form">
+								<h3>Read important information</h3>
+								<div class="box ">
+									<div class="text text-min-height">
+										Pre-sale is already launched: 30 days
+									</div>
+									<div class="buttons">
+										<a href="#" class="btn btn2">TERMS AND CONDITIONS</a>
+										<a href="#" class="btn btn2">FAQ</a>
+										<a href="#" class="btn btn2">WHITEPAPER</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class="box-form">
+								<h3>Balance</h3>
+								<div class="box">
+									0.00064176 BN
+								</div>
+							</div>
+							<div class="box-form">
+								<h3>Crowdsale price</h3>
+								<div class="box">
+									1 BN = 0.00064176 ETH
+								</div>
+							</div>
+						</div>	
+
+						<div class="col-sm-12">
+							<div class="box-form tabs-popap">
+								<h3>BN tokens sale
+									<span>
+										You can send cryptocurrency directly from exchanges 
+									</span>
+								</h3>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="box popup_list">
+											<div class="pict">
+												<img alt="Ethereum" src="/images/design/eth.png" />
+											</div>
+											<div class="title">
+												Ethereum
+											</div>
+											<div class="buttons text-center">
+												<a  class="btn" href="#" onclick="if( $(this).parents('div.popup_list').hasClass('opened') ){ $(this).parents('div.popup_list').removeClass('opened'); }else{ $(this).parents('div.popup_list').addClass('opened'); } return false;">
+													get address
+												</a>
+											</div>
+											<div class="popup">
+												<div class="text text-center">
+													Address:<br>
+													<div class="value">0x83bff57477611492B799cd6FFe9B45535D314b30</div>	
+													<a href="#">How to</a>
+												</div>
+												<div class="buttons text-center">
+													<a href="#" class="btn">copy address</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="box popup_list">
+											<div class="pict">
+												<img alt="Ethereum" src="/images/design/bit.png" />
+											</div>
+											<div class="title">
+												Bitcoin
+											</div>
+											<div class="buttons text-center">
+												<a  class="btn" href="#" onclick="if( $(this).parents('div.popup_list').hasClass('opened') ){ $(this).parents('div.popup_list').removeClass('opened'); }else{ $(this).parents('div.popup_list').addClass('opened'); } return false;">
+													get address
+												</a>
+											</div>
+											<div class="popup">
+												<div class="text text-center">
+													Address:<br>
+													<div class="value">0x83bff57477611492B799cd6FFe9B45535D314b30</div>	
+													<a href="#">How to</a>
+												</div>
+												<div class="buttons text-center">
+													<a href="#" class="btn">copy address</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>		
+							</div>
+						</div>	
+			
+						<div class="col-sm-12">
+							<div class="box-form">
+								<h3>History</h3>
+								<div class="box box-height">
+									<div class="text">
+										<div class="table">
+										<table>
+											<thead>
+												<tr>
+													<td><a href="#"> Data </a></td>
+													<td><a href="#"> Tokens bought</a></td>
+													<td><a href="#"> Token price</a></td>
+													<td><a href="#"> Total</a></td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>2017-10-02 20:50:03</td>
+													<td> 89130 BN</td>
+													<td>$ 0.05</td>
+													<td>15 eth</td>
+												</tr>
+												<tr>
+													<td>2017-10-02 20:50:03</td>
+													<td>1303280 BN</td>
+													<td>$ 0.05</td>
+													<td>9 eth</td>
+												</tr>
+												<tr>
+													<td>2017-10-02 20:50:03</td>
+													<td>2166530 BN</td>
+													<td>$ 0.05</td>
+													<td>12 eth</td>
+												</tr>
+											</tbody>	
+										</table>
+										</div>		
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="box-form">
+								<h3>Profile</h3>
+								<div class="box ">
+									<div class="text">
+										Please use only ERC20 compatible wallets. Do not use one address for multiple accounts and do not use deposit addresses from any exchange.<br/>
+										Don't have an Ethereum address? Go to MyEtherwallet.com and sign up for a free address. <a href="#">How to</a><br/>
+										Make sure you save and secure your password and private key. There is no way to restore it after creation.
+									</div>
+									<div class="row">
+										<div class="col-sm-7">
+											<div class="fields-form two-fields-form">
+												<div class="line">
+													<div class="caption">
+														Fist name
+													</div>
+													<div class="edit">
+														<input type="text">
+													</div>
+												</div>
+												<div class="line">
+													<div class="caption">
+														Last name
+													</div>
+													<div class="edit">
+														<input type="text">
+													</div>
+												</div>
+												<div class="line">
+													<div class="caption">
+														Ethereum address
+													</div>
+													<div class="edit">
+														<input type="text" value="0x4A9385b53E22CA2B3e4A0c816327Be2727AeDa1b">
+													</div>
+												</div>
+												<div class="line">
+													<div class="caption">
+														Country of Residence
+													</div>
+													<div class="edit">
+														<div class="selectbox selectbox-gray" style="z-index: 108;"> <!-- z-index убывает с каждым новым селектом на форме -->
+															<label class="selectGeneral" placeholder="">
+															
+															  <input name="configurator_f_skincolor" type="radio">
+																							
+															  <div>
+															  	<input name="configurator_f_skincolor" value="" id="none_fc" class="none" type="radio">
+															    <label for="none_fc" class="none">select</label>
+															  								    
+																    <input name="configurator_f_skincolor" value="3" id="conf_fcolor_3" type="radio">
+																    <label for="conf_fcolor_3">Russion</label>
+														
+															    							    
+																    <input name="configurator_f_skincolor" value="2" id="conf_fcolor_2" type="radio">
+																    <label for="conf_fcolor_2">USA</label>
+														
+															    							    
+																    <input name="configurator_f_skincolor" value="1" id="conf_fcolor_1" type="radio">
+																    <label for="conf_fcolor_1">China</label>
+															  	</div>
+															</label>
+														</div>
+													</div>
+												</div>
+												
+												<div class="buttons text-center">
+													<a href="#" class="btn">SAVE</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>		
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="box-form">
+								<h3>Change password</h3>
+								<div class="box ">
+									<div class="fields-form">
+										<div class="line">
+											<div class="caption">
+												Рassword
+											</div>
+											<div class="edit">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="line">
+											<div class="caption">
+												New password
+											</div>
+											<div class="edit">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="line">
+											<div class="caption">
+												Confirm new password
+											</div>
+											<div class="edit">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="line">
+											<div class="caption">
+												Verification code
+											</div>
+											<div class="edit">
+												<input type="text" />
+											</div>
+										</div>
+										
+										<div class="buttons text-center">
+											<a href="#" class="btn">SAVE</a>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="box-form">
+								<h3>Security</h3>
+								<div class="box ">
+									<div class="checker">
+										<img src="/images/design/checker.png">
+										
+									</div>
+									<div class="text text-min-height">
+										For extra account security, you can turn on two-factor authentication (2FA)
+									</div>
+									<h4>We use Google Authenticator for 2FA <i class="fa fa-sort-down" aria-hidden="true"></i>
+									</h4>
+									<div class="line">
+										<label>
+											Нow it works
+										</label>
+										<div class="qr">
+											<img src="<?=$ga_qrcode?>" alt="QR-code">
+											<div>
+									
+												<p>Ваш код: sB8iybY8biYBiYByi8yGKvg6YVyVU</p>
+									
+											</div>
+										</div>
+									</div>	
+									<div class="line">
+										<label>
+											16-Digit key
+										</label>
+										<div class="edit">
+											<input>
+										</div>
+										<div class="text">
+											<b>Important:</b> Before turning on 2FA, write down the 16-digit key and put keep it in a safe place. If your phone gets lost, stolen, or erased, you will need this key to get back into your account!
+										</div>
+									</div>	
+									<div class="line">
+										<label>
+											Password
+										</label>
+										<div class="edit">
+											<input>
+										</div>
+									</div>	
+									<div class="line">
+										<label>
+											6-Digit key
+										</label>
+										<div class="edit">
+											<input>
+										</div>
+									</div>	
+									<div class="line checkbox">
+										<div class="edit">
+											<input type="checkbox">
+										</div>
+										<label>
+											I have backed up my 16-digit key
+										</label>
+									</div>
+									<div class="buttons text-center">
+										<a href="#" class="btn">SAVE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12">
+							<div class="box-form">
+								<h3>Link referral program</h3>
+								<div class="box ">
+									<div class="text">
+										Share this address to receive 5% bonus in BN from every contribution sent though it. BN payout. 
+									</div>
+									<div class="referals_form">
+										<div class="row">
+											<div class="col-lg-5 col-sm-7">
+												<div class="edit">
+													<input id="ref_link" name="ref_link" value="http://ico.dev.dexs.ru/guard/register?ref_id=1">
+												</div>
+											</div>
+											<div class="col-sm-4">
+												<span class="btn">copy link</span>
+											</div>
+										</div>
+									</div>
+									<div class="text">
+										By copying and using this link I agree with the <a href="#">Terms and Conditions</a> of this offer
+									</div>
+									<h4>
+										Referral stats
+									</h4>
+									<div class="value">
+										<span class="caption">Number of times yiur link has been clicked:</span> <span class="num">0</span>
+									</div>
+									<div class="value">
+										<span class="caption">Number of unique clicks:</span> <span class="num">0</span>
+									</div>
+									<div class="value">
+										<span class="caption">People who have signed up using your link:</span> <span class="num">0</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</template>
