@@ -1,17 +1,13 @@
 <template name="login">
 
-<form action="/" method="post">
+<form class="login-form">
 		<div id="login-box" class="form-box">
 			<div class="body bg-gray">
-					
-				<input type="hidden" name="signin[_csrf_token]" value="f7510ae02148120c02a5a835dc0659d7" id="signin__csrf_token" />					
+				
 				<div class="form-group">
-					<input type="text" name="signin[username]" class="form-control" placeholder="Login/e-mail" id="signin_username" />				</div>
+					<input type="email" name="email" class="form-control" placeholder="E-mail" id="email" />				</div>
 				<div class="form-group">
-					<input type="password" name="signin[password]" class="form-control" placeholder="Password" id="signin_password" />		
-				</div>
-				<div class="form-group">
-					<input type="checkbox" name="signin[remember]" id="signin_remember" />					<label for="signin_remember" >Remember me</label>
+					<input type="password" name="password" class="form-control" placeholder="Password" id="password" />		
 				</div>
 			</div>
 			<div class="footer">
