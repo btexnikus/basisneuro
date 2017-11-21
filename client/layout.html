@@ -1,38 +1,21 @@
 <template name="layout">
 <div class="fullheigt">
 	<header>
-		<div class="header_top">
-			<div class="container">
-				{{#if currentUser}}
-				<div class="box register">
-					<a href="#" class="logout">Logout</a> /
-				</div>
-				{{else}}
-				<div class="box register">
-					<a href="/register/" >Register</a> /
-				</div>
-				{{/if}}
-				<div class="box user-name">
-					<a href="#">{{currentUser.emails.[0].address}}</a>
-				</div>
-			</div>	
-		</div>
+
 		<div class="header_down">
 			<div class="container">
 				<div class="box">
-					<span class="title">BasisNeuro Token Sale Dashboard</span>
+					<span class="title">BasisNeuro {{#if currentUser}}Token Sale Dashboard{{/if}}</span>
 				</div>
 				<div class="box box-right">
 					<div class="sing">
 						{{#if currentUser}}
-							<a class="logout" href="#">Sing-out <i class="fa fa-sign-out" aria-hidden="true"></i></a>
-						{{else}}
-							<a class="singin" href="/login/">Sing-in <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+							<a class="logout" href="#">{{currentUser.emails.[0].address}} <i class="fa fa-sign-out" aria-hidden="true"></i></a>
 						{{/if}}
 					</div>
 					<div class="lang">
 						<ul class="lang_list">
-							<li class="lang1 select>">
+							<li class="lang1 select">
 								<i></i><a href="#">En<span>glish</span></a>
 							</li>
 							<li class="lang2">
@@ -52,16 +35,6 @@
 			{{> yield}}
 		</div>
 
-	    <footer class="footer">
-	    	<div class="footer_down">
-		        <div class="container">
-			        <div class="row">
-			        	<div class="col-lg-6 copyright">
-						</div>
-			        </div>
-		        </div>
-			</div>
-	    </footer>
 	</div>
 </div>
 </template>
