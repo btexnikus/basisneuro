@@ -12,17 +12,27 @@ if (Meteor.isClient) {
 
 	Template.register.events({
     'submit form': function(e) {
-        e.preventDefault();
-        alert('est');
-        var email = e.target.email.value;
-        var password = e.target.password.value;
-      Meteor.loginWithPassword(email, password,function(error){
-            if(error) {
-               alert('123');
-            }else{
-               FlowRouter.go('/');
-            }
-        });
+        event.preventDefault();
+        var email = $('[name=email_address]').val();
+        var password = $('[name=password]').val();
+        var password_again = $('[name=password_again]').val();
+
+        if(password == password_again){
+
+          Accounts.createUser({
+              email: email,
+              password: password
+          }, function(error){
+              if(error){
+                  alert(error.reason);
+              } else {
+                  Router.go('/');
+              }
+          });
+
+        }else{
+          alert('Passwords do not match!');
+        }
      }
  });
 

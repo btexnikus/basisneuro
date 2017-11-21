@@ -3,11 +3,17 @@
 	<header>
 		<div class="header_top">
 			<div class="container">
+				{{#if currentUser}}
 				<div class="box register">
-					<a href="#" >Выход</a> /
+					<a href="#" class="logout">Logout</a> /
 				</div>
+				{{else}}
+				<div class="box register">
+					<a href="/register/" >Register</a> /
+				</div>
+				{{/if}}
 				<div class="box user-name">
-					<a href="#">Username</a>
+					<a href="#">{{currentUser.emails.[0].address}}</a>
 				</div>
 			</div>	
 		</div>
@@ -18,7 +24,11 @@
 				</div>
 				<div class="box box-right">
 					<div class="sing">
-						{{> loginButtons}}
+						{{#if currentUser}}
+							<a class="logout" href="#">Sing-out <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+						{{else}}
+							<a class="singin" href="/login/">Sing-in <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+						{{/if}}
 					</div>
 					<div class="lang">
 						<ul class="lang_list">

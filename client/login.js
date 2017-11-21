@@ -18,7 +18,7 @@ if (Meteor.isClient) {
         var password = e.target.password.value;
       	Meteor.loginWithPassword(email, password,function(error){
             if(error) {
-               alert('123');
+               alert(error.reason);
             }else{
             	Router.go('/');
             }
