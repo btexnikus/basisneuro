@@ -1,22 +1,27 @@
 <template name="register">
-<form class="register-form" name="register_form" method="post">
-	<div id="login-box" class="form-box">
-		<div class="body bg-gray">
-			
-			<div class="form-group">
-				<input type="text" name="email_address" class="form-control" placeholder="Email" id="email_address" />
-			</div>
-			<div class="form-group">
-				<input type="password" name="password" class="form-control" placeholder="Password" id="password" />		
-			</div>
-			<div class="form-group">
-				<input type="password" name="password_again" class="form-control" placeholder="Repeat password" id="password_again" />
-			</div>
+<div class="login">
+	<div class="top_form">
+	<h1>Sing in to buy tokens and follow <br> the launch of BN Coin</h1>
+	<form class="register-form" name="register_form" method="post">
+		<div id="login-box" class="form-box">
+			<div class="body bg-gray">
+				
+				<div class="form-group">
+					<input type="text" name="email_address" class="form-control" placeholder="Email" id="email_address" />
+				</div>
+				<div class="form-group">
+					<input type="password" name="password" class="form-control" placeholder="Password" id="password" />		
+				</div>
+				<div class="form-group">
+					<input type="password" name="password_again" class="form-control" placeholder="Repeat password" id="password_again" />
+				</div>
 
+			</div>
+			<div class="footer">
+				<button class="btn bg-olive btn-block" type="submit">Register</button>
+			</div>
 		</div>
-		<div class="footer">
-			<button class="btn bg-olive btn-block" type="submit">Register</button>
-		</div>
+	</form>
 	</div>
-</form>
+</div>
 </template>
