@@ -6,8 +6,6 @@ if (Meteor.isClient) {
 
 	Template.layout.rendered = function() {
 
-
-
 		if(Meteor.userId()){
 			Router.go('/');
 		}else{
@@ -20,8 +18,25 @@ if (Meteor.isClient) {
     'click .logout': function(event){
         event.preventDefault();
         Meteor.logout();
-        Router.go('/login/');
-	    }
+        Router.go('/');
+	},
+
+	'click .enlang': function(event){
+        event.preventDefault();
+        TAPi18n.setLanguage('en');
+        $('.chlang').removeClass('select');
+        $('.lang1').addClass('select');
+        Router.go('/');
+	},
+
+	'click .rulang': function(event){
+        event.preventDefault();
+        TAPi18n.setLanguage('ru');
+        $('.chlang').removeClass('select');
+        $('.lang2').addClass('select');
+        Router.go('/');
+	}
+
 	});
 
 }
