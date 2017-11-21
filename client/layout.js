@@ -18,7 +18,7 @@ if (Meteor.isClient) {
     'click .logout': function(event){
         event.preventDefault();
         Meteor.logout();
-        Router.go('/');
+        Router.go('/login/');
 	},
 
 	'click .enlang': function(event){
